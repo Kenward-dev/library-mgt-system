@@ -20,7 +20,7 @@ A production-style RESTful API for managing a school library  built with **Node.
 ## Project Structure
 
 ```
-/library-system
+/library-mgt-system
 ├── config/         # DB connection, Swagger config
 ├── controllers/    # Thin controllers (glue layer)
 ├── middleware/     # Auth, validation, error handler
@@ -46,7 +46,6 @@ A production-style RESTful API for managing a school library  built with **Node.
 
 ```bash
 git clone `library-mgt-system`
-cd library-system
 npm install
 ```
 
